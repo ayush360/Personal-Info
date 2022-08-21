@@ -1,0 +1,67 @@
+body{
+    background-color: grey;
+    color: white;
+}
+.navbar{
+    width: 50%;
+    display: block;
+    margin: 22px auto;
+    background-color: rgb(86, 83, 83);
+    border: 1px solid black;
+}
+.navbar li{
+    display: inline-block;
+    margin: 8px;
+    margin-left: 114px;
+    font-size: larger;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover, .navbar li a.active{
+    color: rgb(221, 210, 210);
+    text-decoration: underline;
+}
+.intro img{
+    width: 10%;
+    height: 10%;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+.intro{
+    text-align: center;
+    color: white ;
+}
+hr{
+    width: 30%;
+    border-style: none;
+    border-top-style: dashed;
+    border-width: 4px ;
+}
+.info{
+    padding-top: 1%;
+    text-align: center;
+    font-size: larger;
+}
+.cont{
+    font-size: x-large;
+    text-align: center;
+}
+.contact{
+    text-align: center;
+    padding: 20px;
+}
+.contact a{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 9px;
+    color: white;
+    padding: 14px;
+    margin: 22px;
+    font-size: large;
+}
+.contact a:hover{
+    background-color: rgb(51, 48, 48);
+    color: black;
+}

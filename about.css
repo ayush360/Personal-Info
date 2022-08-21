@@ -1,0 +1,34 @@
+.first, .two, .three{
+    margin-left: 25px;
+    font-size: large;
+}
+.education li{
+    font-size: large;
+}
+.skills li{
+    font-size: large;
+}
+.achieve li{
+    font-size: large;
+}
+.like{ 
+    text-align: center;
+    font-size: larger;
+} 
+.arrow{
+    margin-top: 4px;
+    font-size: xx-large;
+    margin-bottom: 7px;
+}
+.like a{
+    text-decoration: none;
+    border: 1px solid wheat;
+    border-radius: 3px;
+    padding: 2px;
+    color: white;
+}
+.like a:hover{
+    font-weight: bolder;
+    color: wheat;
+    background-color: white;
+}
